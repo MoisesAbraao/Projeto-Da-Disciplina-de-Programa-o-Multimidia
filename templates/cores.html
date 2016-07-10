@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../estilo/static.css">
+	<script type="text/javascript" src="../scripts/script.js"></script>
+	<title>Cores</title>
+	<!-- <script>
+		function arrastar(ev){
+			ev.dataTransfer.setData("text", ev.target.id);
+		}
+		function permitirSoltar(ev){
+			ev.preventDefault();
+		}
+		function soltar(ev){
+			ev.preventDefault();
+			var data = ev.dataTransfer.getData("text", ev.target.id);
+			ev.target.appendChild(document.getElementById(data));
+		}
+	</script> -->
+</head>
+<body>
+	<h2>Cores</h2>
+	<center><table>
+		<tr>
+			<td><div class="retanguloBranco" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div></td>
+			<td><div class="retanguloBranco" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div></td>
+			<td><div class="retanguloBranco" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div></td>
+			<td><div class="retanguloBranco" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div></td>
+			<td><div class="retanguloBranco" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div></td>
+			<td><div class="retanguloBranco" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div></td>
+		</tr>
+		<tr>
+			<td><div class="retangulo7" draggable="True" id="r1" ondragstart="arrastar(event)"></div></td>
+			<td><div class="retangulo8" draggable="True" id="r2" ondragstart="arrastar(event)"></div></td>
+			<td><div class="retangulo9" draggable="True" id="r3" ondragstart="arrastar(event)"></div></td>
+			<td><div class="retangulo10" draggable="True" id="r4" ondragstart="arrastar(event)"></div></td>
+			<td><div class="retangulo11" draggable="True" id="r5" ondragstart="arrastar(event)"></div></td>
+			<td><div class="retangulo12" draggable="True" id="r6" ondragstart="arrastar(event)"></div></td>
+		</tr>
+		<tr>
+			<td><div class="retangulo13" draggable="True" id="r7" ondragstart="arrastar(event)"></div></td>
+			<td><div class="retangulo14" draggable="True" id="r8" ondragstart="arrastar(event)"></div></td>
+			<td><div class="retangulo15" draggable="True" id="r9" ondragstart="arrastar(event)"></div></td>
+			<td><div class="retangulo16" draggable="True" id="r10" ondragstart="arrastar(event)"></div></td>
+			<td><div class="retangulo17" draggable="True" id="r11" ondragstart="arrastar(event)"></div></td>
+			<td><div class="retangulo18" draggable="True" id="r12" ondragstart="arrastar(event)"></div></td>
+		</tr>
+	</table></center>
+
+
+</body></html>

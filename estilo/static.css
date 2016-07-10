@@ -1,0 +1,144 @@
+.retanguloBranco{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			}
+
+.retanguloAlfabeto{
+			width: 75px;
+			height: 75px;
+			border: 1px solid black;
+			}
+
+.retanguloNumerais{
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+			}
+
+.retangulo1{
+			width: 250px;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #FFFF00;
+		}
+
+.retangulo2{
+			width: 250px;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #FF4500;
+		}
+
+.retangulo3{
+			width: 250px;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #0000CD;
+		}
+
+.retangulo4{
+			width: 250px;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #4B0082;
+		}
+
+.retangulo5{
+			width: 250px;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #7CFC00;
+		}
+
+.retangulo6{
+			width: 250px;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #D3D3D3;
+		}
+
+
+
+/* retangulos das cores*/
+.retangulo7{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #FFFF00;
+		}
+
+.retangulo8{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #FF4500;
+		}
+
+.retangulo9{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #0000CD;
+		}
+
+.retangulo10{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #FF1493;
+		}
+
+.retangulo11{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #4B0082;
+		}
+
+.retangulo12{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #7CFC00;
+		}
+.retangulo13{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #000000;
+		}
+
+.retangulo14{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #FF8C00;
+		}
+
+.retangulo15{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #A52A2A;
+		}
+.retangulo16{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #D3D3D3;
+		}
+.retangulo17{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #191970;
+		}
+.retangulo18{
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			background-color: #87CEEB;
+		}
+
+/*  fim retangulos das cores*/
