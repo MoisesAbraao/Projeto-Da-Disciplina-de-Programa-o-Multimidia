@@ -3,8 +3,27 @@
 <head>
 	<meta charset="utf-8">
 	<title>Formas Geométricas</title>
+	<link rel="stylesheet" type="text/css" href="../estilo/static.css">
+	<script type="text/javascript" src="../scripts/script.js"></script>
 </head>
 <body>
 	<h2>Formas Geométricas</h2>
+	<center>
+		<table>
+			<tr>
+				<td><div class="trianguloB" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div></td>
+				<td><div class="quadradoB" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div></td>
+				<td><div class="circuloB" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div></td>
+				<td><div class="retanguloB" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div></td>
+			</tr>
+			<tr>
+				<td><div class="triangulo" draggable="True" id="t" ondragstart="arrastar(event)"></div></td>
+				<td><div class="quadrado" draggable="True" id="q" ondragstart="arrastar(event)"></div></td>
+				<td><div class="circulo" draggable="True" id="c" ondragstart="arrastar(event)"></div></td>
+				<td><div class="retangulo" draggable="True" id="r" ondragstart="arrastar(event)"></div></td>
+			</tr>
+		</table>
+	</center>
+	
 </body>
 </html>
